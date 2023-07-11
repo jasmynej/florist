@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Comfortaa;
+    src: url("./fonts/Comfortaa-VariableFont_wght.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: DeliusRegular;
+    src: url("./fonts/DeliusUnicase-Regular.ttf");
+}
+
+@font-face {
+    font-family: DeliusBold;
+    src:url("./fonts/DeliusUnicase-Bold.ttf");
+}
+@font-face {
+    font-family: GrandHotel;
+    src: url("./fonts/GrandHotel-Regular.ttf");
+}
+h1 {
+    font-family: GrandHotel,sans-serif;
+}
+
+body {
+    font-family: Comfortaa,sans-serif;
 }
