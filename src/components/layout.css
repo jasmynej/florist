@@ -1,0 +1,11 @@
+.nav-item {
+    @apply border-b-4 border-transparent;
+}
+
+.nav-item:hover {
+    @apply border-b-amber-300 border-b-4;
+}
+
+.active {
+    @apply border-b-amber-300 border-b-4;
+}
